@@ -1,3 +1,113 @@
+section{
+    display: flex;
+}
+.divi1{
+    width: 50%;
+    margin: left 10px;
+}
+.orange{
+    color: orange;
+}
+.button{
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid rgb(250, 64, 64);
+    width: 10px;
+    height: 5px; 
+    color: white;
+    background-color: rgb(243, 33, 33);
+    border-radius: 8px;
+    align-items: center;
+    
+}
+
+
+.divider{
+    display:flex;
+    column-gap: 10px;
+}
+.h{
+    text-align: center;
+    font-size: medium;
+}
+ .box{width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.card{
+    width: 250px;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 5px;
+    box-shadow: 10px 10px 10px 10px rgb(70, 47, 47);
+    border-radius: 7%;
+    border: 2px solid white;
+
+}
+.card img{
+    width: 60%;
+    height: 50;
+    align-items: center;
+}
+.text{
+    padding: 10px;
+    background-color: white;
+}
+
+body{
+    margin:10px;
+}
+.orange{
+    color: orange;
+}
 h1{
-    color: brown;
+    font-size: 50px;
+    text-align: center;
+}
+.middle{
+    text-align: center;
+}
+#off-white{
+    background-color: white;
+}
+#gray{
+     background-color: rgb(213, 218, 202);
+}
+#blue{
+    background-color: rgb(245, 231, 226);
+}h2{
+    text-align: left;
+}
+.pic.{
+    border-top: 10px 10px;
+}
+#id2{
+    margin: 30px 30px;
+    border: 10px;
+}
+.black{
+    color: black;
+}
+.h1{
+    text-align: left;
+}
+.gocorona{
+    display: flex;
+}
+.footer{
+    position:auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+.yellow{
+    color: rgb(250, 64, 64);
 }
